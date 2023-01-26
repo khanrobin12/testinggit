@@ -79,20 +79,33 @@ public class InterviewQuestions {
 		 * }else { System.out.println("Consonant"); }
 		 */
 		//find the largest amount three numbers
-		int x=100;
-		int y=600;
-		int z=300;
+		/*
+		 * int x=100; int y=600; int z=300;
+		 * 
+		 * if (x>y && x>z) { System.out.println("X grater");
+		 * 
+		 * }else if (y>z) { System.out.println("Y grater"); }else {
+		 * System.out.println("Z grater"); }
+		 */
+		// find ten roots of a quadratic equation. 
 		
-		if (x>y && x>z) {
-			System.out.println("X grater");
-			
-		}else if (y>z) {
-			System.out.println("Y grater");
-		}else {
-			System.out.println("Z grater");
+		// Check the leap year. 
+		 int year = 1000;
+			/*
+			 * if (((year%400==0))||((year%4==0)&&(year%100!=0))) {
+			 * 
+			 * System.out.println("Leap year"); }else { System.out.println("not leap year");
+			 * }
+			 */
+		 if (year%400==0) {
+			 System.out.println("Leap");
+			 
+		 }else if (year%4==0 && year%100!=0) {
+			System.out.println("Leap y");
+		} else {
+			System.out.println("no leap yarr");
 		}
 		
-		// find teh roots of a quadratic equation. 
 
 	}
 
