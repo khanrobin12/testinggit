@@ -69,18 +69,29 @@ public class InterviewQuestions {
 		 */
 		//check whether an alphabet is vowel or consonant. 
 		
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter a Charachater");
-		char a=sc.next().charAt(0);
-		System.out.println(a);
+		/*
+		 * Scanner sc=new Scanner(System.in);
+		 * System.out.println("Please enter a Charachater"); char a=sc.next().charAt(0);
+		 * System.out.println(a);
+		 * 
+		 * if (a=='a'||a=='e'||a=='i'||a=='0'||a=='u') { System.out.println("Vowel");
+		 * 
+		 * }else { System.out.println("Consonant"); }
+		 */
+		//find the largest amount three numbers
+		int x=100;
+		int y=600;
+		int z=300;
 		
-		if (a=='a'||a=='e'||a=='i'||a=='0'||a=='u') {
-			System.out.println("Vowel");
+		if (x>y && x>z) {
+			System.out.println("X grater");
 			
+		}else if (y>z) {
+			System.out.println("Y grater");
 		}else {
-			System.out.println("Consonant");
+			System.out.println("Z grater");
 		}
-		//fine the largest amount three numbers
+		
 		// find teh roots of a quadratic equation. 
 
 	}
