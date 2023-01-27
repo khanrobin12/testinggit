@@ -90,7 +90,7 @@ public class InterviewQuestions {
 		// find ten roots of a quadratic equation. 
 		
 		// Check the leap year. 
-		 int year = 1000;
+		 int year = 1100;
 			/*
 			 * if (((year%400==0))||((year%4==0)&&(year%100!=0))) {
 			 * 
